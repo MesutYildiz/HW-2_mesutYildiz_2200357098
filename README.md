@@ -16,10 +16,15 @@ Dataset
 There are 1372 data points with the following features:
 
 variance: The variance of the image.
+
 skewness: The skewness of the image.
+
 curtosis: The kurtosis of the image.
+
 entropy: The entropy of the image.
+
 class: Target feature (0: Fake, 1: Authentic).
+
 The dataset can be downloaded from UCI Repository - Banknote Authentication.
 
 # Requirements
@@ -34,13 +39,8 @@ scipy
 scikit-image
 # Instructions to Run
 
-Download the dataset:
-
 Download the banknote authentication dataset from the UCI repository and extract it.
-Prepare the dataset:
-
 Place the dataset file (data_banknote_authentication.txt) in the project directory.
-Run the code:
 Open the project in a Python environment or Jupyter Notebook.
 Load the dataset, train the decision tree model, and evaluate the performance.
 Results:
