@@ -35,8 +35,10 @@ scikit-image
 # Instructions to Run
 
 Download the dataset:
+
 Download the banknote authentication dataset from the UCI repository and extract it.
 Prepare the dataset:
+
 Place the dataset file (data_banknote_authentication.txt) in the project directory.
 Run the code:
 Open the project in a Python environment or Jupyter Notebook.
