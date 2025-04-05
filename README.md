@@ -1,11 +1,10 @@
 # HW-2_mesutYildiz_2200357098
 
-Banknote Authentication with Decision Tree
+# Banknote Authentication with Decision Tree
 
 Project involves the use of a decision tree classifier to determine whether a banknote is real or fake based on features such as variance, skewness, kurtosis, and entropy. The data is from the UCI Machine Learning Repository.
 
-Project Description
-
+# Requirements
 The goal of this project is to:
 
 Load and prepare the Banknote Authentication dataset.
@@ -23,7 +22,7 @@ entropy: The entropy of the image.
 class: Target feature (0: Fake, 1: Authentic).
 The dataset can be downloaded from UCI Repository - Banknote Authentication.
 
-Requirements
+# Requirements
 
 Python 3.x
 pandas
@@ -33,7 +32,7 @@ matplotlib
 seaborn
 scipy
 scikit-image
-Instructions to Run
+# Instructions to Run
 
 Download the dataset:
 Download the banknote authentication dataset from the UCI repository and extract it.
@@ -46,7 +45,7 @@ Results:
 The model's performance metrics (accuracy, precision, recall, F1-score) will be printed.
 The decision tree will be visualized, and a confusion matrix will be displayed.
 Feature importance will be plotted for interpretation.
-Structure
+# Structure
 
 decision_tree_banknote.py: Python script to load the data, train the model, and evaluate results.
 requirements.txt: File listing necessary Python packages.
