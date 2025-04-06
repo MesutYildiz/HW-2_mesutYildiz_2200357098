@@ -1,4 +1,4 @@
-# HW-2_mesutYildiz_2200357098
+# HW2_mesutYildiz_2200357098
 
 # Banknote Authentication with Decision Tree
 
